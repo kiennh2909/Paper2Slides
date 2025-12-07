@@ -1,0 +1,25 @@
+# Core Library Dependencies (paper2slides/)
+# RAG Core
+huggingface_hub
+lightrag-hku
+mineru[core]
+tqdm
+
+# Image Processing
+Pillow>=10.0.0
+reportlab>=4.0.0
+
+# API
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Data Processing
+pyyaml>=6.0
+requests>=2.28.0
+
+
+# Web API Dependencies (api/)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
